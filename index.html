@@ -23,7 +23,7 @@
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon float-end"></span>
                 </button>
-                <div class="collapse navbar-collapse flex-end" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse flex-end flex-grow-0" id="navbarSupportedContent">
                     <ul class="navbar-nav mb-2 mb-lg-0 text-white">
                         <li class="nav-item text-white">
                             <a class="nav-link" href="#">portfolio</a>
@@ -121,11 +121,15 @@
                 <i class="fa-solid fa-star fs-2"></i>
                 <div class="horizontal_rule mb-2 bg-dark"></div>
             
-                <div>
-                    <div class="input-group border-0 border-dark">
-                        <textarea class="form-control" aria-label="With textarea" placeholder="Name"></textarea>
-                    </div>
+                <input type="text" class="mb-4 mt-5" placeholder="Name"><hr>
+                <input type="text" class="my-5" placeholder="Email Address"><hr>
+                <input type="text" class="my-5" placeholder="Phone Number"><hr>
+                <div class="contact-me-messagearea input-group mx-auto my-5">
+                    <textarea class="no_border form-control" aria-label="With textarea" placeholder="Message"></textarea>
                 </div>
+
+            </div>
+                
         </section>
         <!-- Sezione Info -->
         <section class="info-section">

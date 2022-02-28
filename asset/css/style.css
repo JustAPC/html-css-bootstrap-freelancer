@@ -24,6 +24,28 @@ header {
 .about-section {
     background-color: rgb(26, 188, 156);
 }
+input[type=text]{
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+    border: 0;
+}
+hr {
+    width: 70%;
+    margin: 0 auto;
+}
+.contact-me-messagearea {
+    width: 70%;
+    height: 200px;
+}
+.no_border {
+    border: 0;
+}
+::placeholder {
+    color: #2C3E50;
+    font-size: 1.3em;
+    opacity: 1;
+}
 .info-section {
     background-color: rgb(58, 84, 109);
 }
